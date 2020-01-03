@@ -1,0 +1,140 @@
+
+.upcoming {
+  max-width: 25vw;
+  max-height: 25vw;
+}
+
+#dog-bar-left {
+  display: list-item;
+  justify-items: center;
+  float: left;
+  height: 150 px;
+  width: 150 px;
+  padding-bottom: 10px, 10px;
+
+}
+
+#right-dog-bar {
+  /* display: list-item; */
+  justify-items: stretch;
+  /* float: right;
+  padding: 2%;
+  width: 26%;  */
+}
+
+
+ img {
+  max-width: 25vw;
+  max-height: 25vw;
+  justify-items: stretch;
+}
+
+.rightDoggie {
+  width: 550px;
+  height: 600px;
+  border: solid black;
+  margin: 10px;
+  background-color: blueviolet;
+
+}
+
+body {
+  margin: 0;
+}
+
+#title {
+  text-align: center;
+}
+
+#form-container {
+  align-items: center;
+}
+
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  display: flex;
+}
+
+form {
+  display: grid;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+a {
+  border: darkorchid;
+  padding: 0.3rem;
+  border-style: solid;
+  fill: darkred;
+}
+
+/* .upcoming-holder {
+  border: 0.5rem;
+  border-style: groove;
+} */
+
+*{
+  font-family: baskerville;
+  font-weight: bold;
+}
+
+body {
+  background-image: url(https://www.tokkoro.com/picsup/2808041-nature-landscape-dog-mountain-himalayas___landscape-nature-wallpapers.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkolivegreen;
+}
+
+.showdog{
+ height: 350px;
+ width: 350px;
+ transform: translate(80px ,-10px);
+}
+
+.dogDiv{
+  width: 550px;
+  height: 450px;
+  border: solid black;
+  margin: 20px;
+  background-color: blueviolet;
+
+}
+
+.dogDiv:hover {
+  border: solid #00e64d;
+  /* position:relative; */
+  
+}
+
+.rightDoggie:hover {
+  border: solid #00e64d;
+  /* position:relative; */
+  
+}
